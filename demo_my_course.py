@@ -238,7 +238,9 @@ def main(
         st.balloons()
         st.write('Респект, возможность получения работы по направлению "Data Sсience", развитые компетенции в аналитике данных :sunglasses:.')
         time.sleep(2.5)
-        
+        image = Image.open('money.jpg')
+
+        st.image(image, caption='Выбор за Вами :)')
         #st.markdown("Выбор за Вами !", unsafe_allow_html = True)
         
         st_player("https://soundcloud.com/tinor-dark/k2ylpzerceqo")
