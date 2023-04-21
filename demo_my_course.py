@@ -230,17 +230,17 @@ def main(
     
     st_player("https://www.youtube.com/watch?v=i2jwZcWicSY")
     
-
+    st.image('money.jpg',width=710)
     
     if st.button("Что ждёт после успешного окончания курса?"):
         
         
-        
+        st.balloons()
         st.write('Респект, возможность получения работы по направлению "Data Sсience", развитые компетенции в аналитике данных :sunglasses:.')
         time.sleep(2.5)
-        st.image('money.jpg',width=710)
+        
         #st.markdown("Выбор за Вами !", unsafe_allow_html = True)
-        st.balloons()
+        
         st_player("https://soundcloud.com/tinor-dark/k2ylpzerceqo")
         
     
