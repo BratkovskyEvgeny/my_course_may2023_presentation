@@ -230,7 +230,7 @@ def main(
     
     st_player("https://www.youtube.com/watch?v=i2jwZcWicSY")
     
-    st.image('money.jpg',width=710)
+    #st.image('money.jpg',width=710)
     
     if st.button("Что ждёт после успешного окончания курса?"):
         
