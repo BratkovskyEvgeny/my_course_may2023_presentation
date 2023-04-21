@@ -240,7 +240,7 @@ def main(
         time.sleep(2.5)
         image = Image.open('money.jpg')
 
-        st.image(image)
+        st.image(image, "rb")
         #st.markdown("Выбор за Вами !", unsafe_allow_html = True)
         
         st_player("https://soundcloud.com/tinor-dark/k2ylpzerceqo")
